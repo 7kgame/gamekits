@@ -1,0 +1,42 @@
+{
+  "name": "gamekits",
+  "version": "1.0.0",
+  "description": "小游戏开发相关工具，如多平台打包、图片压缩等",
+  "preferGlobal": true,
+  "main": "./bin/index.js",
+  "bin": {
+    "gamekits": "./bin/index.js"
+  },
+  "files": [
+    "bin/**/*.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7kgame/gamekits.git"
+  },
+  "keywords": [
+    "minigame"
+  ],
+  "author": "cyij2006@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/7kgame/gamekits/issues"
+  },
+  "homepage": "https://github.com/7kgame/gamekits#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "tinify": "^1.6.0-beta.2",
+    "yaml": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/ejs": "^2.6.3",
+    "@types/node": "^12.7.12",
+    "@types/yaml": "^1.2.0",
+    "typescript": "^3.6.4"
+  }
+}
